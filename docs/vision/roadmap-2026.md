@@ -1,59 +1,22 @@
 ---
-title: Vision/Roadmap 2025
-sidebar_label: Vision/Roadmap 2025
-sidebar_position: 3
-slug: /vision/vision-roadmap-2025
+title: Cardano 2026 Roadmap (Draft)
+sidebar_label: Cardano 2026 Roadmap (Draft)
+sidebar_position: 4
+slug: /vision/roadmap-2026
 ---
 
-# 2025 Vision & Roadmap
+# Cardano 2026 Roadmap
 
-## Vision
+This roadmap is updated annually and focuses on near-term deliverables the
+ecosystem can work on now or is already executing.
 
-Cardano envisions a future where it serves as the robust and scalable
-foundation for a decentralized global economy. This will be achieved by
-significantly enhancing L1 performance through the Leios protocol and
-optimizing the current codebase, while simultaneously expanding the
-capabilities of L2 solutions like Hydra and Midgard. By improving developer
-experience through enhanced APIs, robust tooling, and a focus on
-decentralization, Cardano aims to empower developers to build innovative and
-impactful applications. Furthermore, the expansion of programmable assets,
-including advanced features like account abstraction and custodian regulated
-stablecoins, will unlock new possibilities for decentralized finance and
-beyond. This vision emphasizes a strong commitment to research, community
-collaboration, and the long-term sustainability of the Cardano ecosystem.
-
-A thriving ecosystem is essential for realizing this vision. This requires a
-multi-faceted approach that fosters innovation, attracts new users and
-developers, and drives real-world adoption. A key component of this strategy
-is the cultivation of strategic partnerships with organizations across various
-sectors, focusing on developing and deploying Cardano-based solutions that
-address specific industry needs. We will prioritize collaborations that align
-with Cardano's core principles of security, scalability, and decentralization.
-
-Beyond strategic partnerships, fostering a vibrant and engaged community is
-paramount. We will invest in initiatives that empower developers to build
-innovative dApps and tools on Cardano. This includes establishing incubator
-and accelerator programs, organizing regular hackathons and offering developer
-grants, and expanding an ecosystem fund to support promising projects.
-Furthermore, we will prioritize improving the developer experience through
-enhanced APIs, robust tooling, and comprehensive documentation, making it
-easier for developers to get started with Cardano and build impactful
-applications.
-
-Finally, building a strong and supportive community is crucial for long-term
-success. We will focus on initiatives that nurture and engage the Cardano
-community, such as meetups, online forums, and ambassador programs. By
-combining strategic partnerships, developer support, and community engagement,
-we are confident in our ability to create a thriving ecosystem that drives the
-adoption of Cardano and realizes its full potential.
-
-The general themes of the community's short-term vision, as analyzed through
+The general themes of the community's short-term roadmap, as analyzed through
 the community roadmap survey, focus on increasing scalability,
 interoperability, and usability.
 
 ## Roadmap
 
-The 2025 roadmap comprises a number of items that have been
+The 2026 roadmap comprises a number of items that have been
 proposed by community members, as described below.
 It is expected that progress will be made on most or all
 of this roadmap. Importantly, the scope of the roadmap is not
@@ -128,7 +91,7 @@ sequential model.
   throughput while maintaining the security and
   decentralization of the Cardano blockchain.
 
-The roadmap for 2025 includes several key steps to achieve
+The roadmap for 2026 includes several key steps to achieve
 in preparation for the development and implementation of Leios:
 
   * Develop formal specifications to guide node
@@ -350,10 +313,9 @@ pool operators. This is a few suggestions of what can be assessed.
 * Explore distributing the full rewards pot for active stake in the rewards calculation
 * Consider rewards for Mithril signers, block rewards for different Leios block types, and rewards for Testnet SPOs
 
-**Note:** This vision and  roadmap represents a high-level overview
+**Note:** This roadmap represents a high-level overview
 and will be further refined and iterated upon based
 on ongoing research, community feedback, and
 technological advancements. It is based on the results of the TSC survey.
 The initial author of this roadmap is Sam Leathers, Chair for
 the Intersect Product Committee.
-
