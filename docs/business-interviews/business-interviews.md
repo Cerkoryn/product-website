@@ -1,0 +1,58 @@
+---
+sidebar_label: Business Interviews
+title: Business Interviews
+sidebar_position: 2
+---
+
+# Business Interviews
+
+Business interviews are important to identify what businesses building on Cardano
+and looking to build on Cardano would need from the protocol to hit product market fit.
+
+Below is an example interview workflow that can be used. It's important to adapt based on
+the call, and not strictly go through the questions and end the call. Go where the discussion
+leads you, but this provides a framework to get started.
+
+If you are interested in doing business development interviews for the product committee,
+please contact us. If you are a business that wants to provide input, we can also schedule
+interviews if you contact us.
+
+```mermaid
+graph TD
+    A[Start Interview] --> Y[What top 3 major challenges or problems is your company looking to solve?];
+    Y --> Z[What major uncertainties does the future pose for your business?];
+    Z --> B{Web2 Company}
+    Z --> C{Web3 Company};
+
+    B --> D[Has your company considered using blockchain solutions?];
+    D -- Yes --> E[What specific problems did your company explore utilizing blockchain to solve?];
+    E --> J[Did your company choose to pursue a blockchain solution?];
+    J -- Yes --> K[What specific blockchain-based solution is your company pursuing and why?];
+    J -- No --> L[What are the main objections to your company adopting a blockchain-based solution?];
+
+    D -- No --> F{Determine whether web2 company can benefit from leveraging blockchain value proposition};
+    F --> G[Could your customers or operations benefit from guaranteed transparency and/or immutable data?];
+    F --> H[Could your customers or operations benefit from trustless or peer-to-peer transactions?];
+    F --> I[Could your customers or operations benefit from decentralized/unstoppable service availability?];
+
+    C --> P[How does blockchain give your company a competitive advantage?];
+    P --> R[What are the greatest challenges are you seeing relevant to customer acquisition / product adoption?];
+    R --> S[What specific blockchain technologies is your company using and why?];
+```
+
+## Post-Interview Process
+
+To make sure interviews are actionable and insights can be compared across companies, we recommend a **unified post-interview process**:
+
+**Capture**
+- Record key answers using a standardized template.
+- Highlight notable quotes or insights that may inform protocol development.
+
+**Categorize**
+- Tag insights by theme (e.g., scalability, interoperability, regulation, adoption, customer trust).
+- Note differences between Web2 and Web3 contexts.
+
+**Summarize & Submit**
+- Write a 3–5 sentence summary highlighting the company’s main challenges, blockchain stance, and potential needs from Cardano.
+- Call out *actionable signals* that the product committee should consider.
+

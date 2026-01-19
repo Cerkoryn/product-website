@@ -34,7 +34,18 @@ module.exports = {
         },
     },
     plugins: [
-      'docusaurus-plugin-sass'
+      'docusaurus-plugin-sass',
+      [
+        '@docusaurus/plugin-client-redirects',
+        {
+          redirects: [
+            {
+              to: '/vision/vision-roadmap-2025',
+              from: ['/vision-roadmap-2025'],
+            },
+          ],
+        },
+      ],
   ],
     presets: [
         [
@@ -43,7 +54,7 @@ module.exports = {
                 docs: {
                     routeBasePath: "/",
                     sidebarPath: require.resolve('./sidebars.js'),
-                    editUrl: 'https://github.com/hfco/docs/tree/master',
+                    editUrl: 'https://github.com/IntersectMBO/product-website/edit/master',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.scss'),
