@@ -35,35 +35,43 @@ Three key KPIs measure Cardano's usage, adoption, and sustainability:
 Progress in these KPIs signals that the chain is achieving product market fit, with sustainable and growing demand for Cardano's services. This confirms we are solving critical real-world problems and delivering value for our community.
 These three KPIs are supported by many additional metrics and sub-indicators that contribute to their measurement. They are also the most commonly used benchmarks across the broader crypto ecosystem, enabling comparison against peers and helping attract additional users and capital.
 
-| Area| Metric | current status | How to calculate | 2030 Target | Rationale|
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| Adoption | Total Value Locked (TVL)   | $200M | Liquid staking normalization.<br /><br />TVL = Σ locked assets.  | $3B| Capital confidence indicator. |
-| Adoption | Monthly transactions | 800k submitted transactions per month || ≥ 27M submitted transactions per month | Signals broad, recurring on-chain activity.                                                                                                                                                              |
-| Adoption | Monthly Active Users (MAU) | Approximately 100k-300k active wallets per month | Count unique addresses with transactions over 30-day window. | 1M | Measures active ecosystem participation + engagement.<br /><br /> MAU measures number of unique wallets submitting ≥1 transaction per month; does not differentiate human activity vs wallet count. |
-
-We are limited in the number of ‘top level’ KPIs as an ecosystem we can prioritise. Too many and it is difficult to create a clear strategic direction, too few and we risk missing critical indicators across priority areas. As a result we propose the following additional Primary core KPIs. 
-
-
-| Area| Metric | Current Status| How to Calculate | 2030 Target | Rationale|
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| Reliability | Monthly (6 epochs) UpTime | 99.98 | Uptime percentage = ((Total time period − Total 5-minute blockless periods) / Total time period) × 100% | 99.98% Uptime (no blockless intervals of 5 minutes or longer across 6 epochs)<br /><br /> Reasoning: Cardano block production is modeled as a Poisson process with λ ≈ 1 block / 20 seconds.<br /><br />The probability of producing zero blocks in 5 minutes is effectively zero (≈3×10⁻⁷), therefore any 5-minute gap constitutes a statistically reliable indicator of downtime.<br /><br /> | Maintain best-in-class operational reliability. (Protocol Stability)|
-| Operational resilience | Voting Power distribution of controlling stake | 35 | (total live stake - abstain DRep - NoConfidence DRep)*0.51 > than stake of top 22 DReps | 50% + 1 lovelace effective voting power controlled by > than 22 DReps | Mitigates risk of attacks from colluded DReps |
-| Operational resilience | Alternative full node clients | 1 | | ≥ 2 live, spec-conformant | Reduce single-client risk. |
-| Revenue / adoption | Annual Protocol Revenue | 3.5M ada within the calendar | Annual Protocol Revenue = Submitted Transactions per year * avg fee per submitted transaction| ≥ 16M ada (assuming an ada value of $5 and a reduction of avg fees over the 4 years from 0.3 ada to 0.05 ada)| This includes all revenue to the protocol (excluding the rewards).<br /><br />The key metric of economic self-sufficiency and utility.<br /><br /> (Revenue could come from fees, L1 and L2 services, investments and more) |
-| Governance| DRep participation rate||% of active DReps (by stake) voting on 90% or more of governance actions| > 70% of active DReps (by stake) vote on 90% or more of governance actions.| Measure the vitality and engagement of the decision-making layer. |
-| Scalability | Throughput capacity per day| 300k transactions per day || 3x current capacity | Tracking scalability of the system to meet adoption KPIs |
-
-### KPI and Metric Strategy
-- The list above is not a complete list of  KPIs. We expect this framework to evolve and mature over time. We recognize that a broader, more complete measurement framework is necessary, including more detailed secondary and tertiary level KPIs. 
-- This initial focus provides the community with immediate KPI’s to support with alignment of treasury  funding decisions while the comprehensive framework is developed. We expect to develop this fuller and more comprehensive set of KPIs for the evolution of the Cardano blockchain in early 2026 and will work closely with the community and the other committees to shape the KPI direction. This will also include developing Marketing KPIs to broaden reach and engagement, drive positive perceptions and bring more users to the chain..
-- As part of the review of KPIs with the community we will also aim to support a strategy on how metrics are more effectively tracked and reported on, including supporting the creation of relevant dashboards.
-
 **A note on terminology**  
 
 ***Metrics*** are quantifiable measures that track specific aspects of ecosystem activity. They provide raw data points that can be monitored over time. Examples include transaction count, wallet addresses, smart contract deployments, and fee volumes. Metrics answer the question: "What is happening?"
 
 ***Key Performance Indicators*** are a curated subset of metrics that directly measure progress toward strategic objectives. They are actionable signals that drive strategy and decision-making at the highest level. KPIs answer the question: "Are we succeeding in our strategic goals?" and ensure strategic alignment. Typically, KPIs are limited in number to maintain focus, though teams, groups may have their own more detailed KPIs. 
 
+### Measures of Performance (MoP) and Measures of Effectiveness (MoE)
+
+In addition to KPIs, the strategy may use Measures of Performance (MoP) and Measures of Effectiveness (MoE).
+MoPs track the quality and completion of work we directly control (outputs and deliverables).
+MoEs track whether those outputs create the intended outcomes over time.
+
+The Administrator may use this MoP/MoE framing with input from Ecosystem Stewards, Founding Entities, dReps, and SPOs, and may publish updates and propose corrective actions when performance or effects are off-track.
+Core KPIs are outcome targets, but the ecosystem can only act directly on things we can control (MoPs). We can use this framework by assigning funding and accountability to prioritize controllable deliverables (MoPs) that we expect to move those second and third order effects (MoEs) over time.  
+
+| Area| Metric | current status | How to calculate | 2030 Target | Rationale| Measure of Success |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| Adoption | Total Value Locked (TVL)   | $200M | Liquid staking normalization.<br /><br />TVL = Σ locked assets.  | $3B| Capital confidence indicator. | MoE |
+| Adoption | Monthly transactions | 800k submitted transactions per month || ≥ 27M submitted transactions per month | Signals broad, recurring on-chain activity.                                                                                                                                                              | MoE |
+| Adoption | Monthly Active Users (MAU) | Approximately 100k-300k active wallets per month | Count unique addresses with transactions over 30-day window. | 1M | Measures active ecosystem participation + engagement.<br /><br /> MAU measures number of unique wallets submitting ≥1 transaction per month; does not differentiate human activity vs wallet count. | MoE |
+
+We are limited in the number of ‘top level’ KPIs as an ecosystem we can prioritise. Too many and it is difficult to create a clear strategic direction, too few and we risk missing critical indicators across priority areas. As a result we propose the following additional Primary core KPIs. 
+
+
+| Area| Metric | Current Status| How to Calculate | 2030 Target | Rationale| Measure of Success |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| Reliability | Monthly (6 epochs) UpTime | 99.98 | Uptime percentage = ((Total time period − Total 5-minute blockless periods) / Total time period) × 100% | 99.98% Uptime (no blockless intervals of 5 minutes or longer across 6 epochs)<br /><br /> Reasoning: Cardano block production is modeled as a Poisson process with λ ≈ 1 block / 20 seconds.<br /><br />The probability of producing zero blocks in 5 minutes is effectively zero (≈3×10⁻⁷), therefore any 5-minute gap constitutes a statistically reliable indicator of downtime.<br /><br /> | Maintain best-in-class operational reliability. (Protocol Stability)| MoE |
+| Operational resilience | Voting Power distribution of controlling stake | 35 | (total live stake - abstain DRep - NoConfidence DRep)*0.51 > than stake of top 22 DReps | 50% + 1 lovelace effective voting power controlled by > than 22 DReps | Mitigates risk of attacks from colluded DReps | MoE |
+| Operational resilience | Alternative full node clients | 1 | | ≥ 2 live, spec-conformant | Reduce single-client risk. | MoP |
+| Revenue / adoption | Annual Protocol Revenue | 3.5M ada within the calendar | Annual Protocol Revenue = Submitted Transactions per year * avg fee per submitted transaction| ≥ 16M ada (assuming an ada value of $5 and a reduction of avg fees over the 4 years from 0.3 ada to 0.05 ada)| This includes all revenue to the protocol (excluding the rewards).<br /><br />The key metric of economic self-sufficiency and utility.<br /><br /> (Revenue could come from fees, L1 and L2 services, investments and more) | MoE |
+| Governance| DRep participation rate||% of active DReps (by stake) voting on 90% or more of governance actions| > 70% of active DReps (by stake) vote on 90% or more of governance actions.| Measure the vitality and engagement of the decision-making layer. | MoE |
+| Scalability | Throughput capacity per day| 300k transactions per day || 3x current capacity | Tracking scalability of the system to meet adoption KPIs | MoE |
+
+### KPI and Metric Strategy
+- The list above is not a complete list of  KPIs. We expect this framework to evolve and mature over time. We recognize that a broader, more complete measurement framework is necessary, including more detailed secondary and tertiary level KPIs. 
+- This initial focus provides the community with immediate KPI’s to support with alignment of treasury  funding decisions while the comprehensive framework is developed. We expect to develop this fuller and more comprehensive set of KPIs for the evolution of the Cardano blockchain in early 2026 and will work closely with the community and the other committees to shape the KPI direction. This will also include developing Marketing KPIs to broaden reach and engagement, drive positive perceptions and bring more users to the chain..
+- As part of the review of KPIs with the community we will also aim to support a strategy on how metrics are more effectively tracked and reported on, including supporting the creation of relevant dashboards.
 
 ## Pillar 1: Infrastructure & Research Excellence
 
@@ -175,4 +183,4 @@ Ensuring the long-term financial health and operational integrity of the network
 | Focus Area | Strategy | Expected Enhancement |
 | :---- | :---- | :---- |
 | **Diversified SPO roles** | Advance programs to incentivize SPOs to diversify beyond L1 block production into supporting Layer 2 protocols, Actively Validated Services (AVS) for partner chains, and decentralized hosting. | Broader, more resilient infra. |
-| **Decentralization target** | Keep k-parameter / pool distribution such that \>500 independent pools produce ≥95% of blocks. | Strong base-layer security. |
+| **Decentralization target** | Regularly evaluate and adjust k-parameter and related incentives to improve stake distribution, increase decentralization, support reward sustainability and pledge viability, promote fairness, and mitigate the social risk of struggling SPOs, aiming for \>500 independent pools producing ≥95% of blocks. | Strong base-layer security. |
