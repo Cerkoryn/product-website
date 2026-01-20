@@ -26,13 +26,13 @@ fixed, but is open to new community contributions.
 
 | Roadmap Item | Tag |
 | :---- | :---- |
-| Scaling the L1 Engine | E-THROUGHPUT, E-UPTIME |
+| Scaling the L1 Engine | E-THROUGHPUT, E-RELIABILITY |
 | Incoming Liquidity | E-TVL |
 | L2 Expansion | E-THROUGHPUT, E-TX |
 | Developer/User Experience | E-MAU, E-TX |
 | Programmable Assets | E-TVL |
-| Multiple Node Implementations | E-CLIENTS |
-| SPO Incentive Improvements | E-VOTEPOWER |
+| Multiple Node Implementations | E-RESILIENCE |
+| SPO Incentive Improvements | E-RESILIENCE |
 
 ### Scaling the L1 Engine
 

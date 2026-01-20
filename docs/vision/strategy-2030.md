@@ -57,7 +57,7 @@ Keep Cardano secure, fast, and interoperable so it can host more economic activi
 
 | Focus Area | Description | Expected Enhancement | Tag |
 | :---- | :---- | :---- | :---- |
-| **L1 protocol improvements** | Improve consensus, ledger, and networking to raise throughput and shorten finality. | L1 capacity for institutional, retail, and enterprise demand. | E-THROUGHPUT, E-UPTIME |
+| **L1 protocol improvements** | Improve consensus, ledger, and networking to raise throughput and shorten finality. | L1 capacity for institutional, retail, and enterprise demand. | E-THROUGHPUT, E-RELIABILITY |
 | **L2 integration** | Make L2 solutions first-class so high-volume activity can move off L1 and settle back. | High-frequency, low-latency transactions with L1 security. | E-THROUGHPUT, E-TX |
 | **Cross-chain interoperability** | Standardize secure bridges and state-proofs to other chains and legacy infra. | Cardano as an interoperability hub. | E-TVL |
 | **Core ZK capabilities** | Provide modular ZK infrastructure for private, verifiable off-chain computation. | Privacy-preserving, verifiable apps. |
@@ -67,8 +67,8 @@ Keep Cardano secure, fast, and interoperable so it can host more economic activi
 | Focus Area | Description | Expected Enhancement | Tag |
 | :---- | :---- | :---- | :---- |
 | **Post-quantum readiness** | Migrate protocol-critical cryptography to PQ-resistant candidates. | Proactive protection against future threats. |  |
-| **Client diversity** | Support additional full-node and light-client implementations with conformance testing. | Better decentralization. | E-CLIENTS |
-| **Threat detection & recovery** | Improve observability, self-healing, and disaster-recovery procedures. | Enterprise-grade reliability for regulated use. | E-UPTIME |
+| **Client diversity** | Support additional full-node and light-client implementations with conformance testing. | Better decentralization. | E-RESILIENCE |
+| **Threat detection & recovery** | Improve observability, self-healing, and disaster-recovery procedures. | Enterprise-grade reliability for regulated use. | E-RELIABILITY |
 
 ## Pillar 2: Adoption & Utility
 
@@ -159,4 +159,4 @@ Ensuring the long-term financial health and operational integrity of the network
 | Focus Area | Strategy | Expected Enhancement | Tag |
 | :---- | :---- | :---- | :---- |
 | **Diversified SPO roles** | Advance programs to incentivize SPOs to diversify beyond L1 block production into supporting Layer 2 protocols, Actively Validated Services (AVS) for partner chains, and decentralized hosting. | Broader, more resilient infra. |  |
-| **Decentralization target** | Regularly evaluate and adjust k-parameter and related incentives to improve stake distribution, increase decentralization, support reward sustainability and pledge viability, promote fairness, and mitigate the social risk of struggling SPOs. | Strong base-layer security. | E-VOTEPOWER |
+| **Decentralization target** | Regularly evaluate and adjust k-parameter and related incentives to improve stake distribution, increase decentralization, support reward sustainability and pledge viability, promote fairness, and mitigate the social risk of struggling SPOs. | Strong base-layer security. | E-RESILIENCE |
