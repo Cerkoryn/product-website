@@ -10,6 +10,8 @@ slug: /vision/roadmap-2026
 This roadmap is updated annually and focuses on near-term deliverables the
 ecosystem can work on now or is already executing.
 
+Roadmap items advance the Strategy pillars and use tags in the table below to show which Vision outcomes they are intended to influence.
+
 The general themes of the community's short-term roadmap, as analyzed through
 the community roadmap survey, focus on increasing scalability,
 interoperability, and usability.
@@ -21,6 +23,16 @@ proposed by community members, as described below.
 It is expected that progress will be made on most or all
 of this roadmap. Importantly, the scope of the roadmap is not
 fixed, but is open to new community contributions.
+
+| Roadmap Item | Tag |
+| :---- | :---- |
+| Scaling the L1 Engine | E-THROUGHPUT, E-UPTIME |
+| Incoming Liquidity | E-TVL |
+| L2 Expansion | E-THROUGHPUT, E-TX |
+| Developer/User Experience | E-MAU, E-TX |
+| Programmable Assets | E-TVL |
+| Multiple Node Implementations | E-CLIENTS |
+| SPO Incentive Improvements | E-VOTEPOWER |
 
 ### Scaling the L1 Engine
 

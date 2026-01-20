@@ -41,23 +41,25 @@ These three KPIs are supported by many additional metrics and sub-indicators tha
 
 ***Key Performance Indicators*** are a curated subset of metrics that directly measure progress toward strategic objectives. They are actionable signals that drive strategy and decision-making at the highest level. KPIs answer the question: "Are we succeeding in our strategic goals?" and ensure strategic alignment. Typically, KPIs are limited in number to maintain focus, though teams, groups may have their own more detailed KPIs. 
 
-| Area| Metric | current status | How to calculate | 2030 Target | Rationale|
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| Adoption | Total Value Locked (TVL)   | $200M | Liquid staking normalization.<br /><br />TVL = Σ locked assets.  | $3B| Capital confidence indicator. |
-| Adoption | Monthly transactions | 800k submitted transactions per month || ≥ 27M submitted transactions per month | Signals broad, recurring on-chain activity.                                                                                                                                                              |
-| Adoption | Monthly Active Users (MAU) | Approximately 100k-300k active wallets per month | Count unique addresses with transactions over 30-day window. | 1M | Measures active ecosystem participation + engagement.<br /><br /> MAU measures number of unique wallets submitting ≥1 transaction per month; does not differentiate human activity vs wallet count. |
+Effect tags in the Tag column (e.g., E-TVL) are used in the Strategy and Roadmap documents to show which Vision outcomes those deliverables are intended to influence.
+
+| Area| Metric | current status | How to calculate | 2030 Target | Rationale| Tag |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| Adoption | Total Value Locked (TVL) | $200M | Liquid staking normalization.<br /><br />TVL = Σ locked assets.  | $3B| Capital confidence indicator. | E-TVL |
+| Adoption | Monthly transactions | 800k submitted transactions per month || ≥ 27M submitted transactions per month | Signals broad, recurring on-chain activity.                                                                                                                                                              | E-TX |
+| Adoption | Monthly Active Users (MAU) | Approximately 100k-300k active wallets per month | Count unique addresses with transactions over 30-day window. | 1M | Measures active ecosystem participation + engagement.<br /><br /> MAU measures number of unique wallets submitting ≥1 transaction per month; does not differentiate human activity vs wallet count. | E-MAU |
 
 We are limited in the number of ‘top level’ KPIs as an ecosystem we can prioritise. Too many and it is difficult to create a clear strategic direction, too few and we risk missing critical indicators across priority areas. As a result we propose the following additional Primary core KPIs. 
 
 
-| Area| Metric | Current Status| How to Calculate | 2030 Target | Rationale|
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| Reliability | Monthly (6 epochs) UpTime | 99.98 | Uptime percentage = ((Total time period − Total 5-minute blockless periods) / Total time period) × 100% | 99.98% Uptime (no blockless intervals of 5 minutes or longer across 6 epochs)<br /><br /> Reasoning: Cardano block production is modeled as a Poisson process with λ ≈ 1 block / 20 seconds.<br /><br />The probability of producing zero blocks in 5 minutes is effectively zero (≈3×10⁻⁷), therefore any 5-minute gap constitutes a statistically reliable indicator of downtime.<br /><br /> | Maintain best-in-class operational reliability. (Protocol Stability)|
-| Operational resilience | Voting Power distribution of controlling stake | 35 | (total live stake - abstain DRep - NoConfidence DRep)*0.51 > than stake of top 22 DReps | 50% + 1 lovelace effective voting power controlled by > than 22 DReps | Mitigates risk of attacks from colluded DReps |
-| Operational resilience | Alternative full node clients | 1 | | ≥ 2 live, spec-conformant | Reduce single-client risk. |
-| Revenue / adoption | Annual Protocol Revenue | 3.5M ada within the calendar | Annual Protocol Revenue = Submitted Transactions per year * avg fee per submitted transaction| ≥ 16M ada (assuming an ada value of $5 and a reduction of avg fees over the 4 years from 0.3 ada to 0.05 ada)| This includes all revenue to the protocol (excluding the rewards).<br /><br />The key metric of economic self-sufficiency and utility.<br /><br /> (Revenue could come from fees, L1 and L2 services, investments and more) |
-| Governance| DRep participation rate||% of active DReps (by stake) voting on 90% or more of governance actions| > 70% of active DReps (by stake) vote on 90% or more of governance actions.| Measure the vitality and engagement of the decision-making layer. |
-| Scalability | Throughput capacity per day| 300k transactions per day || 3x current capacity | Tracking scalability of the system to meet adoption KPIs |
+| Area| Metric | Current Status| How to Calculate | 2030 Target | Rationale| Tag |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| Reliability | Monthly (6 epochs) UpTime | 99.98 | Uptime percentage = ((Total time period − Total 5-minute blockless periods) / Total time period) × 100% | 99.98% Uptime (no blockless intervals of 5 minutes or longer across 6 epochs)<br /><br /> Reasoning: Cardano block production is modeled as a Poisson process with λ ≈ 1 block / 20 seconds.<br /><br />The probability of producing zero blocks in 5 minutes is effectively zero (≈3×10⁻⁷), therefore any 5-minute gap constitutes a statistically reliable indicator of downtime.<br /><br /> | Maintain best-in-class operational reliability. (Protocol Stability)| E-UPTIME |
+| Operational resilience | Voting Power distribution of controlling stake | ~10 | (total live stake - abstain DRep - NoConfidence DRep)*0.51 > than stake of top 22 DReps | 50% + 1 lovelace effective voting power controlled by > than 22 DReps | Mitigates risk of attacks from colluded DReps | E-VOTEPOWER |
+| Operational resilience | Alternative full node clients | 1 | | ≥ 2 live, spec-conformant | Reduce single-client risk. | E-CLIENTS |
+| Revenue / adoption | Annual Protocol Revenue | 3.5M ada within the calendar | Annual Protocol Revenue = Submitted Transactions per year * avg fee per submitted transaction| ≥ 16M ada (assuming an ada value of $5 and a reduction of avg fees over the 4 years from 0.3 ada to 0.05 ada)| This includes all revenue to the protocol (excluding the rewards).<br /><br />The key metric of economic self-sufficiency and utility.<br /><br /> (Revenue could come from fees, L1 and L2 services, investments and more) | E-REV |
+| Governance| DRep participation rate||% of active DReps (by stake) voting on 90% or more of governance actions| > 70% of active DReps (by stake) vote on 90% or more of governance actions.| Measure the vitality and engagement of the decision-making layer. | E-DREP |
+| Scalability | L1 throughput capacity per day| 300k transactions per day || 3x current capacity | Tracking scalability of the system to meet adoption KPIs | E-THROUGHPUT |
 
 ### KPI and Metric Strategy
 - The list above is not a complete list of  KPIs. We expect this framework to evolve and mature over time. We recognize that a broader, more complete measurement framework is necessary, including more detailed secondary and tertiary level KPIs. 
