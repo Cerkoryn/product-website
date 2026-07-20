@@ -51,6 +51,16 @@ Already active on Conway. Requires only a constitution update to make the parame
 
 Removes the requirement for a DRep delegation to be present when withdrawing staking rewards, reducing friction for ada holders who want to withdraw without participating in governance.
 
+### Fair Min Fees ([CIP-23](https://cips.cardano.org/cip/CIP-0023))
+
+Introduces the `minPoolMargin` protocol parameter and implements the associated fee rules.
+
+### Pledge Leverage-Based Staking Rewards ([CIP-50](https://cips.cardano.org/cip/CIP-0050))
+
+Introduces a maximum pledge leverage parameter and updates the staking reward formula to limit the stake eligible for rewards relative to a pool's pledge. 
+> [!NOTE]  
+> An independent team will implement this work and then coordinate integration and testing with the Ledger team in order to help meet timeline and capacity constraints.
+
 ### Block Body Building Blocks
 
 The following are not full feature activations but structural changes to the block body that future intra-era hard forks will depend on. Including them in Dijkstra means those later activations can happen without a protocol version increment.
@@ -69,14 +79,6 @@ If Peras or Leios reach mainnet readiness by the time the Dijkstra scope above i
 | [CIP-140](https://cips.cardano.org/cip/CIP-0140) | Ouroboros Peras: Faster Settlement |
 | [CIP-164](https://cips.cardano.org/cip/CIP-0164) | Ouroboros Linear Leios |
 
-## Deferred to Intra-Era Hard Forks
-
-The following are partial inclusions in Dijkstra. Their parameter definitions ship at Dijkstra, but full activation is deferred to a subsequent intra-era hard fork.
-
-| CIP | Title |
-|-----|-------|
-| [CIP-23](https://cips.cardano.org/cip/CIP-0023) | Fair Min Fees (protocol parameter defined at Dijkstra, fee rule activation deferred) |
-
 ## Considered but Not Included in This Hard Fork
 
 The following CIPs were evaluated for Dijkstra but will not be implemented in this era:
@@ -84,7 +86,6 @@ The following CIPs were evaluated for Dijkstra but will not be implemented in th
 | CIP | Title | Rationale |
 |-----|-------|-----------|
 | [CIP-180](https://github.com/cardano-foundation/CIPs/pull/1157) | Producer Identification | Ledger team does not have the capacity to implement within this era, and alternative node implementations have not reached agreement on the approach. |
-| [CIP-50](https://cips.cardano.org/cip/CIP-0050) | Pledge Leverage-Based Staking Rewards | Unlike CIP-23, there is no status-quo default value: at any value of L, pools with zero pledge earn zero rewards, which is a behaviour change from today. It cannot be introduced dormantly and activated later. The ledger team does not have the capacity to implement this safely within the Dijkstra era. Better targeted at Euler. |
 | [CPS-0023](https://github.com/cardano-foundation/CIPs/pull/1103) | Cardano Multi Asset Treasury | Requires the CIP-159 account address infrastructure included in Dijkstra to lay the groundwork. Better targeted at Euler once that foundation is in place. |
 | [CIP-156](https://cips.cardano.org/cip/CIP-0156) | Plutus Core Builtin Function - multiIndexArray | Not included in the PlutusV4 scope for Dijkstra due to limited Plutus team resources. As it requires no ledger changes, it could potentially be picked up in any upcoming intra-era hard fork if capacity allows. |
 | [CIP-160](https://cips.cardano.org/cip/CIP-0160) | Receiving Script Purpose and Addresses | Insufficient ledger resources to implement within this era given its complexity. |
